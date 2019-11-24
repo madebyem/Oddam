@@ -13,10 +13,6 @@ import {authCheckState} from "./redux/actions";
 import NotFound from "./components/NotFound";
 
 class App extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
     componentDidMount() {
         this.props.onTryAutoSignUp()
     }

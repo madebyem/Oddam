@@ -1,15 +1,11 @@
 import React from "react";
-import Link2 from "react-router-dom/Link"
+import {Link} from "react-router-dom"
 import decoration from '../assets/Decoration.svg'
 import Nav from "./Nav";
 import {withTranslation} from 'react-i18next';
 
 
 export class HomeHeader1 extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         const {t} = this.props;
         return (
@@ -25,12 +21,12 @@ export class HomeHeader1 extends React.Component {
 
                         </div>
                         <div className="action">
-                            <Link2 to="/oddaj-rzeczy">
+                            <Link to="/oddaj-rzeczy">
                                 <button>{t('header.button1')}<br/>{t('header.button12')}</button>
-                            </Link2>
-                            <Link2 to="/logowanie">
+                            </Link>
+                            <Link to="/logowanie">
                                 <button>{t('header.button2')}</button>
-                            </Link2>
+                            </Link>
                         </div>
                     </div>
                 </div>

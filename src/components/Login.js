@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import decoration from "../assets/Decoration.svg";
 import FormErrors from "./FormErrors";
-import Link2 from "react-router-dom/Link";
+import {Link} from "react-router-dom";
 import {Redirect} from 'react-router-dom';
 import {withTranslation} from 'react-i18next';
 
@@ -131,8 +131,8 @@ export class Login1 extends React.Component {
                                     <p>{this.props.error}</p>
                                 </div>
                                 <div className="buttons">
-                                    <Link2 className="changeaction" to="/rejestracja">{t('login.signin')}</Link2>
-                                    <button type="submit" className="submit" type="submit">{t('login.login')}</button>
+                                    <Link className="changeaction" to="/rejestracja">{t('login.signin')}</Link>
+                                    <button  className="submit" type="submit">{t('login.login')}</button>
                                 </div>
                             </form>
                         </div>

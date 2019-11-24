@@ -1,14 +1,9 @@
 import React from "react";
 import decoration from '../../assets/Decoration.svg';
-import header from '../../assets/Form-Hero-Image.jpg'
 import Nav from "../Nav";
 import {withTranslation} from 'react-i18next';
 
 export class HeaderOR1 extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
     render() {
         const {t} = this.props;
         return (

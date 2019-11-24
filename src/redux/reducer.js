@@ -1,5 +1,4 @@
 import {combineReducers} from "redux";
-import React from "react";
 
 
 const initialState = {
@@ -86,8 +85,9 @@ const myReducer = (state = initialState, {type, payload}) => {
                 isAuth: false,
             }
         }
+        default:
+            return state;
     }
-    return state;
 };
 
 

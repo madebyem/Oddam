@@ -1,11 +1,10 @@
 import React from "react";
 import decoration from "../assets/Decoration.svg";
 import SvgSignature from "../Icons/Signature";
-import people from "../assets/People.jpg";
 import {useTranslation} from 'react-i18next';
 
 function Onas() {
-    const {t, i18n} = useTranslation();
+    const {t} = useTranslation();
     return (
         <div className="onas" name="onas" id='onas'>
             <div className="container">

@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import decoration from "../assets/Decoration.svg";
 import FormErrors from "./FormErrors";
-import Link2 from "react-router-dom/Link";
+import {Link} from "react-router-dom";
 import "firebase/auth";
 import "firebase/firestore";
 import {withTranslation} from "react-i18next";
@@ -146,7 +146,7 @@ export class Register1 extends React.Component {
                                     </label>
                                 </div>
                                 <div className="buttons">
-                                    <Link2 className="changeaction" to="/logowanie">{t('signup.login')}</Link2>
+                                    <Link className="changeaction" to="/logowanie">{t('signup.login')}</Link>
                                     <button type="submit" className="submit">{t('signup.signin')}</button>
                                 </div>
                             </form>

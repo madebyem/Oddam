@@ -1,5 +1,5 @@
 import React from "react";
-import Link2 from "react-router-dom/Link";
+import {Link} from 'react-router-dom';
 import {HashLink} from 'react-router-hash-link';
 import i18n from "i18next";
 import {withTranslation} from 'react-i18next';
@@ -16,10 +16,10 @@ export class Nav1 extends React.Component {
                             <button className="langBut" onClick={() => i18n.changeLanguage('en_US')}>en</button>
                         </div>
                         <div className="loginstuff">
-                            <Link2 className="loginlink" to="/logowanie">{t('nav.login')}</Link2>
-                            <Link2 className="loginlink" to="/rejestracja">
+                            <Link className="loginlink" to="/logowanie">{t('nav.login')}</Link>
+                            <Link className="loginlink" to="/rejestracja">
                                 <button>{t('nav.signin')}</button>
-                            </Link2></div>
+                            </Link></div>
 
                     </div>
                     :
@@ -31,18 +31,18 @@ export class Nav1 extends React.Component {
                         </div>
                         <div className="loginstuff">
                             <p>{t('nav.hi')} {this.props.user}!</p>
-                            <Link2 className="loginlink" to="/oddaj-rzeczy">
+                            <Link className="loginlink" to="/oddaj-rzeczy">
                                 <button>{t('nav.give')}</button>
-                            </Link2>
-                            <Link2 className="loginlink" to="/wylogowano">{t('nav.logout')}</Link2>
+                            </Link>
+                            <Link className="loginlink" to="/wylogowano">{t('nav.logout')}</Link>
                         </div>
                     </div>}
 
 
                 <div className="nav">
-                    <Link2 className="navlink" to="/">
+                    <Link className="navlink" to="/">
                         <button>Start</button>
-                    </Link2>
+                    </Link>
                     <HashLink smooth={true} className="navlink nobut" to="/#steps">{t('nav.what')}</HashLink>
                     <HashLink smooth={true} className="navlink nobut" to="/#onas">{t('nav.aboutus')}</HashLink>
                     <HashLink smooth={true} className="navlink nobut" to="/#komu">{t('nav.fund')}</HashLink>

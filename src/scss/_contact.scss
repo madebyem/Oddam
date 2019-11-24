@@ -11,7 +11,7 @@
   z-index: 1;
 
   h1 {
-    margin-top:2rem;
+    margin-top: 2rem;
     font-weight: normal;
     font-size: 1.8rem;
     color: $color5;
@@ -31,7 +31,7 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      margin-bottom:1.5rem;
+      margin-bottom: 1.5rem;
     }
 
 
@@ -79,6 +79,7 @@
         font-weight: 600;
         color: $color5;
         width: 48%;
+        justify-content: flex-end;
 
 
         input {
@@ -192,6 +193,7 @@
           margin-right: 0;
         }
       }
+
       .footer {
         p {
           margin-left: 40%;
@@ -212,25 +214,30 @@
         justify-content: center;
 
         .form {
-          width:85%;
+          width: 85%;
         }
       }
+
       .footer {
-        .icons{
+        .icons {
           width: 4rem;
-        .insta, .fb{
-          margin-left:0.5rem;
-          width: 1.5rem;
-          image{
-            width: 400px;
-          }}
+
+          .insta, .fb {
+            margin-left: 0.5rem;
+            width: 1.5rem;
+
+            image {
+              width: 400px;
+            }
+          }
         }
+
         p {
           margin-left: 35%;
-          font-size:0.625rem;
-
-
+          font-size: 0.625rem;
         }
       }
     }
-}}
+  }
+}
+

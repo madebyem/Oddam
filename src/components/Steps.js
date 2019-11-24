@@ -4,11 +4,11 @@ import SvgIcon1 from "../Icons/Icon1";
 import SvgIcon2 from "../Icons/Icon2";
 import SvgIcon3 from "../Icons/Icon3";
 import SvgIcon4 from "../Icons/Icon4";
-import Link2 from "react-router-dom/Link";
+import {Link} from "react-router-dom";
 import {useTranslation} from 'react-i18next';
 
 function Steps() {
-    const {t, i18n} = useTranslation();
+    const {t} = useTranslation();
     return (
         <div className="steps" name="steps" id='steps'>
             <div className="title">
@@ -60,9 +60,9 @@ function Steps() {
             </div>
             <div className="link">
                 <div className="container">
-                    <Link2 to="/oddaj-rzeczy">
+                    <Link to="/oddaj-rzeczy">
                         <button>{t('steps.button')}</button>
-                    </Link2>
+                    </Link>
                 </div>
             </div>
         </div>

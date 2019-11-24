@@ -5,8 +5,6 @@ import SvgInstagram from "../Icons/Instagram";
 import FormErrors from "./FormErrors";
 import {withTranslation} from 'react-i18next';
 
-const axios = require('axios').default;
-
 
 export class Contact1 extends React.Component {
     constructor(props) {

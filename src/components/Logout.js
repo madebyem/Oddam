@@ -1,15 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
 import decoration from "../assets/Decoration.svg";
-import Link2 from "react-router-dom/Link";
+import {Link} from "react-router-dom";
 import {withTranslation} from 'react-i18next';
 
 
 export class Logout1 extends React.Component {
-    constructor(props) {
-        super(props)
-    }
-
     componentDidMount() {
         this.props.logout();
     };
@@ -29,9 +25,9 @@ export class Logout1 extends React.Component {
                             top: '12.75rem'
                         }}>{t('logout.title')}</h1>
                         <img style={{top: '18.25rem '}} src={decoration} alt="decoration"/>
-                        <Link2 className="gobacklink" to="/">
+                        <Link className="gobacklink" to="/">
                             <button className="goback">{t('logout.btn')}</button>
-                        </Link2>
+                        </Link>
                     </div>
                 </div>
             </div>

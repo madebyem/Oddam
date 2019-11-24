@@ -3,7 +3,7 @@ import {useTranslation} from 'react-i18next';
 
 function ThreeColumns() {
 
-    const {t, i18n} = useTranslation();
+    const {t} = useTranslation();
     return (
         <div className="threecolumns">
             <div className="container">

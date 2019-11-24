@@ -1,4 +1,3 @@
-import React from "react";
 import FormOR from '../components/OddajRzeczy/FormOR';
 import {sendRequest} from "../redux/actions";
 import {connect} from "react-redux";
