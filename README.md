@@ -1,19 +1,21 @@
 Projekt przygotowywany w ramach kursu Coders Lab - JavaScript Developer:React.
 Celem projektu jest stworzenie miejsca, w którym każdy będzie mógł oddać niepotrzebne rzeczy zaufanym instytucjom.
 Projekt będzie stroną internetową z prostym formularzem, który ułatwi użytkownikom oddanie rzeczy.
-Do wykonania projektu użyto:
--React
--React Router
--Sass
--Redux
--local storage
--Firebase
--Material UI
+Do wykonania projektu użyto: <br/>
+-React <br />
+-React Router <br />
+-Sass <br />
+-Redux <br />
+-local storage <br />
+-Firebase <br />
+-Material UI <br />
 
 Użytkownik może się zarejestrować, zalogować i wypełnić formularz oddania rzeczy, zapisywany w bazie danych Firebase.
 Na stronie dostępne są informacje na temat projektu, wspomaganych informacji oraz formularz kontaktowy.
 
 Projekt jest na etapie dalszego rozwoju i poprawek.
+
+_______________________
 
 
 
