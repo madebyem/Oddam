@@ -1,0 +1,226 @@
+.headerOR {
+  button {
+    line-height: normal;
+  }
+  @media (max-width: 1020px) {
+    background-position: -50% 100%;
+  }
+
+  @media (max-width: 930px) {
+    background-position: -90% 100%;
+  }
+  @media (max-width: 850px) {
+    background-position: -150% 100%;
+  }
+
+  @media (max-width: 800px) {
+    background: white;
+  }
+  display: flex;
+  width: 100%;
+  top: 0;
+  background: transparent url('../assets/Form-Hero-Image.jpg');
+  background-size: contain;
+  background-position: -20% 100%;
+  background-repeat: no-repeat;
+  justify-content: center;
+
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .rest {
+    @media (max-width: 975px) {
+      width: 60%;
+    }
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .nav {
+      width: 100%;
+    }
+
+    .upbar {
+      width: 150%;
+      @media (max-width: 800px) {
+        width: 100%;
+      }
+    }
+
+    .login {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+    .title {
+      align-self: center;
+      justify-self: center;
+      margin-top: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+
+      h1 {
+        font-family: $font-base;
+        font-weight: normal;
+        text-align: center;
+        font-size: 1.6rem;
+        color: $color5;
+        letter-spacing: -0.05rem;
+        margin-bottom: .75rem;
+        line-height: 2.125rem;
+        @media (max-width: 975px) and (min-width: 800px) {
+          font-size: 1.25rem;
+          margin-bottom: 0.25rem;
+        }
+        @media (max-width: 400px) {
+          font-size: 1.25rem;
+        }
+
+      }
+
+      img {
+        margin-top: 1.25rem;
+        width: 12.5rem;
+        @media (max-width: 975px) and (min-width: 800px) {
+          margin-top: 1rem;
+        }
+      }
+    }
+
+    .action {
+      width:100%;
+      align-self: center;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      h1 {
+        font-size: 1.5rem;
+        font-weight: lighter;
+        @media (max-width: 975px) {
+          font-size: 1.25rem;
+        }
+        @media (max-width: 400px) {
+          font-size:1rem;
+        }
+      }
+
+      .steps {
+        margin-top: 4rem;
+        font-weight: lighter;
+        display: flex;
+        margin-bottom:5rem;
+        justify-content: center;
+      }
+
+      .weirdStep {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80px;
+        height: 80px;
+        border: 1px solid $color5;
+        background: transparent;;
+        margin: 3px -10px 0 30px;
+        -webkit-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transform-origin: 0 100%;
+        transform-origin: 0 100%;
+        @media (max-width: 975px) and (min-width: 800px) {
+          width: 70px;
+          height: 70px;
+        }
+        @media (max-width: 500px) {
+          width: 70px;
+          height: 70px;
+        }
+        @media (max-width: 450px) {
+          width: 60px;
+          height: 60px;
+        }
+        @media (max-width: 400px) {
+          width: 55px;
+          height: 55px;
+          margin: 3px -20px 0 30px;
+
+        }
+
+        .stepContent {
+          flex-direction: column;
+          justify-content: flex-start;
+          transform: rotate(45deg);
+          margin-left: 0rem;
+          text-align: center;
+
+          h2 {
+            margin-bottom: 0.75rem;
+            font-size: 1.5rem;
+            margin-top: -1rem;
+            @media (max-width: 450px) {
+              font-size:1rem;
+            }
+          }
+
+          p {
+            font-size: 0.875rem;
+            @media (max-width: 450px) {
+              font-size: 0.75rem;
+            }
+          }
+
+        }
+      }
+      .firstStep{
+        margin-left:4rem;
+        @media (max-width: 450px) {
+          margin-left:3.5rem;
+        }
+        @media (max-width: 400px) {
+          margin-left:2.75rem;
+        }
+      }
+
+
+    }
+  }
+
+}
+
+.important {
+  background-color: $color3;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 90%;
+
+    .warnings {
+      margin: 2.5rem 0;
+    }
+
+    h1 {
+      font-weight: 600;
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.125rem;
+    }
+  }
+}

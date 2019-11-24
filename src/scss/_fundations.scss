@@ -1,0 +1,124 @@
+.fundations {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8%;
+
+  .desc {
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    padding-top: 0
+  }
+
+  h2 {
+    font-weight: normal;
+    text-align: center;
+    width: 55%;
+    font-size: 1rem;
+    line-height: 1.25rem;
+
+  }
+
+  .page {
+    width: 70%;
+  }
+
+  .page1, .page2, .page3 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .fundEl {
+      display: flex;
+      padding: 1% 0;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .description {
+        display: flex;
+        flex-direction: column;
+        width:75%;
+
+
+        h3 {
+          font-weight: lighter;
+          font-family: $font-alt;
+        }
+
+        p {
+          margin-top: 1em;
+          font-weight: lighter;
+          font-size: 0.75rem;
+          line-height: 1.5em;
+          font-family: $font-alt;
+          font-style: italic;
+        }
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        width: 25%;
+        margin-left:1rem;
+
+        p {
+          font-size: 0.75rem;
+          font-weight: lighter;
+          font-family: $font-alt;
+          text-align: end;
+        }
+      }
+    }
+  }
+
+  .buttons {
+    button {
+      height: 2rem;
+      width: 1.75rem;
+      margin: 0.5rem;
+      margin-top: 20%;
+      background: transparent;
+      border: 1px solid transparent;
+      font-size: 0.75rem;
+    }
+
+    button:focus {
+      border: 1px solid gray;
+    }
+
+    button:hover {
+      border: 1px solid $color4;
+    }
+
+    .active {
+      border: 1px solid gray;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .fundations {
+    .page {
+      width: 90%;
+    }
+
+    h2 {
+      width: 90%;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .fundations {
+    h2 {
+      font-size:0.9375rem;
+    }
+  }
+}

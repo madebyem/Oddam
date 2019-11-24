@@ -1,0 +1,63 @@
+.threecolumns {
+  width: 100%;
+  background: url('../assets/3 Columns Background.png') 0% 0% repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    @media (max-width: 350px) {
+      width: 95%;
+
+    }
+
+    .stat {
+      height: 100%;
+      width: 33.3%;
+      padding: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+
+      h1 {
+        font-size: 4rem;
+        line-height: 4rem;
+        font-weight: lighter;
+        color: $color2;
+        font-family: $font-base;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1rem
+      }
+
+      p {
+        text-align: center;
+        color: $color5;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+        margin: 0.25rem;
+        @media (max-width: 450px) {
+          font-size: 0.75rem;
+        }
+        @media (max-width: 350px) {
+          font-size: 0.625rem;
+          line-height: 1rem;
+        }
+      }
+
+      .lorem {
+        font-family: $font-alt;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+

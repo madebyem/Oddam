@@ -1,0 +1,60 @@
+.onas {
+  width: 100%;
+  display: flex;
+  background: url("../assets/People.jpg") 110% 50% no-repeat border-box;
+  background-size: 50% 100%;
+  background-color: $color1;
+
+  .container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    height: 100%;
+  }
+
+  .info {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:3rem 1rem;
+    box-sizing: border-box;
+
+    h1 {
+      font-weight: normal;
+      font-family: $font-base;
+      color: $color5;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    img{
+      width: 12rem;
+    }
+
+    h2 {
+      font-weight: normal;
+      font-family: $font-base;
+      color: $color5;
+      font-size: 1.3rem;
+      text-align: center;
+      line-height: 2.2rem;
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .onas {
+    background: $color1;
+
+    .container {
+      .info {
+        width: 100%;
+      }
+    }
+  }
+}
