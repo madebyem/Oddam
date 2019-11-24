@@ -1,0 +1,212 @@
+{
+  "header": {
+    "1": "Zacznij pomagać!",
+    "2": "Oddaj niechciane rzeczy w zaufane ręce",
+    "button1": "ODDAJ",
+    "button12": "RZECZY",
+    "button2": "ZORGANIZUJ ZBIÓRKĘ"
+
+  },
+  "nav": {
+    "login": "Zaloguj",
+    "signin": "Załóż konto",
+    "hi": "Cześć",
+    "give": "Oddaj rzeczy",
+    "logout": "Wyloguj",
+    "what": "O co chodzi?",
+    "aboutus": "O nas",
+    "fund": "Fundacje i organizacje",
+    "contact": "Kontakt"
+  },
+  "columns": {
+    "bags": "ODDANYCH WORKÓW",
+    "org": "WSPARTYCH ORGANIZACJI",
+    "colect": "ZORGANIZOWANYCH ZBIÓREK"
+  },
+  "steps": {
+    "4steps": "Wystarczą 4 proste kroki",
+    "1": "Wybierz rzeczy",
+    "11": "ubrania, zabawki, sprzęt i inne",
+    "2": "Spakuj je",
+    "21": "skorzystaj z worków na śmieci",
+    "3": "Zdecyduj komu chcesz pomóc",
+    "31": "wybierz zaufane miejsce",
+    "4": "Zamów kuriera",
+    "41": "kurier przyjedzie w dogodnym terminie",
+    "button": "ODDAJ RZECZY"
+  },
+  "aboutus": {
+    "title": "O nas"
+  },
+  "komu": {
+    "title": "Komu pomagamy?",
+    "fund": "Fundacjom",
+    "org": "Organizacjom pozarządowym",
+    "loc": "Lokalnym zbiórkom"
+  },
+  "fund": {
+    "1": "Fundacja \"Dbam o zdrowie\"",
+    "11": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+    "12": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+    "2": "Fundacja \"Dla dzieci\"",
+    "21": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+    "22": "ubrania, meble, zabawki",
+    "3": "Fundacja \"Bez domu\"",
+    "31": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+    "32": "ubrania, jedzenie, ciepłe koce",
+    "4": "Fundacja \"Kolejna\"",
+    "41": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+    "42": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+    "5": "Fundacja \"Dla piesków\"",
+    "51": "Cel i misja: Pomoc bezdomnym pieskom.",
+    "52": "karma, koce, zabawki",
+    "6": "Fundacja \"Dla kotków\"",
+    "61": "Cel i misja: Pomoc dla bezdomnych kotków.",
+    "62": "karma, zabawki, ciepłe koce",
+    "7": "Fundacja \"Dla myszy\"",
+    "71": "Cel i misja: Pomoc myszom znajdującym się w trudnej sytuacji życiowej.",
+    "72": "ser, ciepłe koce",
+    "8": "Fundacja \"Dla jelonków\"",
+    "81": "Cel i misja: Pomoc jelonkom z ubogich rodzin.",
+    "82": "karma, kamizelki kuloodporne",
+    "9": "Fundacja \"Dla mnie\"",
+    "91": "Cel i misja: Pomoc osobom dotkniętym zaburzeniami emocjonalnymi.",
+    "92": "pizza, lody, bilety do kina",
+    "desc": "W naszej bazie znajdziesz listę zweryfikowanych Fundacji z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują."
+  },
+  "org": {
+    "1": "Organizacja \"Dbam o zdrowie\"",
+    "11": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+    "12": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+    "2": "Organizacja \"Dla dzieci\"",
+    "21": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+    "22": "ubrania, meble, zabawki",
+    "3": "Organizacja \"Bez domu\"",
+    "31": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+    "32": "ubrania, jedzenie, ciepłe koce",
+    "4": "Organizacja \"Kolejna\"",
+    "41": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+    "42": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+    "5": "Organizacja \"Dla piesków\"",
+    "51": "Cel i misja: Pomoc bezdomnym pieskom.",
+    "52": "karma, koce, zabawki",
+    "6": "Organizacja \"Dla kotków\"",
+    "61": "Cel i misja: Pomoc dla bezdomnych kotków.",
+    "62": "karma, zabawki, ciepłe koce",
+    "desc": "W naszej bazie znajdziesz listę zweryfikowanych Organizacji z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują."
+  },
+  "loc": {
+    "1": "Zbiórka \"Dbam o zdrowie\"",
+    "11": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+    "12": "ubrania, jedzenie, sprzęt AGD, meble, zabawki",
+    "2": "Zbiórka  \"Dla dzieci\"",
+    "21": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+    "22": "ubrania, meble, zabawki",
+    "3": "Zbiórka  \"Bez domu\"",
+    "31": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+    "32": "ubrania, jedzenie, ciepłe koce",
+
+    "desc": "W naszej bazie znajdziesz listę zweryfikowanych Lokalnych Zbiórek z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują."
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "sent": "Wiadomość została wysłana!",
+    "sent2": "Wkrótce się skontaktujemy.",
+    "name": "Wpisz swoje imię",
+    "email": "Wpisz swój e-mail",
+    "mess": "Wpisz swoją wiadomość",
+    "btn": "Wyślij",
+    "errname": "Podane imię jest nieprawidłowe!",
+    "erremail": "Podany e-mail jest nieprawidłowy!",
+    "errmess": "Wiadomość musi mieć conajmniej 120 znaków!"
+  },
+  "login": {
+    "title": "Zaloguj się",
+    "password": "Hasło",
+    "login": "Zaloguj się",
+    "signin": "Załóż konto",
+    "erremail": "Podany e-mail jest nieprawidłowy!",
+    "errpass": "Podane hasło jest za krótkie!"
+  },
+  "signup": {
+    "title": "Załóż konto",
+    "password": "Hasło",
+    "reppass": "Powtórz hasło",
+    "login": "Zaloguj się",
+    "signin": "Załóż konto",
+    "erremail": "Podany e-mail jest nieprawidłowy!",
+    "errpass": "Podane hasło jest za krótkie!",
+    "errreppass": "Podane hasła muszą być takie same!"
+  },
+  "logout": {
+    "title": "Wylogowanie nastąpiło pomyślnie!",
+    "btn": "Strona główna"
+  },
+  "headerOR": {
+    "title": "Oddaj rzeczy których już nie chcesz",
+    "title2": "POTRZEBUJĄCYM",
+    "4steps": "Wystarczą 4 proste kroki:",
+    "1": "Wybierz rzeczy",
+    "2": "Spakuj je w worki",
+    "3": "Wybierz fundację",
+    "4": "Zamów kuriera"
+  },
+  "notFound": {
+    "title": "Podany adres nie istnieje :(",
+    "btn": "Strona główna"
+  },
+  "formOR": {
+    "important": "Ważne!",
+    "step": "Krok",
+    "1": "Zaznacz co chcesz oddać:",
+    "11": "ubrania, które nadają się do ponownego użycia",
+    "11v": "ubrania w dobrym stanie",
+    "12": "ubrania, do wyrzucenia",
+    "12v": "ubrania do wyrzucenia",
+    "13": "zabawki",
+    "14": "książki",
+    "15": "Inne",
+    "15v": "inne",
+    "2": "Podaj liczbę 60l worków, w które spakowałeś/aś rzeczy:",
+    "21": "Liczba 60l worków:",
+    "choose": " — wybierz —",
+    "wstecz": "Wstecz",
+    "dalej": "Dalej",
+    "3": "Lokalizacja:",
+    "3who": "Komu chcesz pomóc?",
+    "31": "dzieciom",
+    "32": "samotnym matkom",
+    "33": "bezdomnym",
+    "34": "niepełnosprawnym",
+    "35": "osobom starszym",
+    "org": "Wpisz nazwę konkretnej organizacji (opcjonalne)",
+    "4": "Podaj adres oraz termin odbioru rzeczy przez kuriera",
+    "address": "Adres odbioru:",
+    "str": "Ulica",
+    "city": "Miasto",
+    "code": "Kod",
+    "code2": "pocztowy",
+    "phone": "Numer",
+    "number": "telefonu",
+    "termin": "Termin odbioru:",
+    "date": "Data:",
+    "hour": "Godzina",
+    "notes": "Uwagi",
+    "notes2": "dla kuriera",
+    "5": "Podsumowanie Twojej darowizny",
+    "a": "Oddajesz:",
+    "b": "dla lokalizacji:",
+    "c": "worki",
+   "pot": "Potwierdzam",
+    "thanks": "Dziękujemy za przesłanie formularza.",
+    "thanks2": "Na maila prześlemy wszelkie informacje o odbiorze.",
+    "info1": "Uzupełnij szczegóły Twoich rzeczy. Dzięki temu będziemy wiedzieć komu najlepiej je przekazać.",
+    "info2": "Wszystkie rzeczy do oddania zapakuj w 60l worki. Dokładną instrukcję jak poprawnie spakować rzeczy znajdziesz TUTAJ.",
+    "info3": "Jeśli wiesz komu chcesz pomóc, możesz wpisać nazwę tej organizacji w wyszukiwarce. Możesz też filtrować organizacje po ich lokalizacji bądź celu ich pomocy.",
+    "info4": "Podaj adres oraz termin odbioru rzeczy."
+
+
+
+
+  }
+}
