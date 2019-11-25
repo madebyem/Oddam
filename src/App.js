@@ -35,7 +35,7 @@ class App extends React.Component {
                     <Provider store={store}>
                         <BrowserRouter>
                             <Switch>
-                                <Route exact path='/' component={Home}/>
+                                <Route exact path='/oddamrzeczy' component={Home}/>
                                 <Route path="/logowanie" component={Login}/>
                                 <Route path="/rejestracja" component={Register}/>
                                 <Route path="/wylogowano" component={Logout}/>
