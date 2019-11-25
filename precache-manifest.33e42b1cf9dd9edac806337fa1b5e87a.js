@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "df9028015c6cf4d7745afb131d494d02",
+    "revision": "9e6ef4f86d5602cb5b3ef7874613d04c",
     "url": "/oddamrzeczy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oddamrzeczy/static/css/2.9b1ecfa1.chunk.css"
   },
   {
-    "revision": "a6ef98a5057b902d58a5",
+    "revision": "5a649e22a852590444bb",
     "url": "/oddamrzeczy/static/css/main.38a48134.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oddamrzeczy/static/js/2.fce7bcd5.chunk.js"
   },
   {
-    "revision": "a6ef98a5057b902d58a5",
-    "url": "/oddamrzeczy/static/js/main.8b440a4e.chunk.js"
+    "revision": "5a649e22a852590444bb",
+    "url": "/oddamrzeczy/static/js/main.e2084d2f.chunk.js"
   },
   {
     "revision": "6071790cfdfb25cb7436",
