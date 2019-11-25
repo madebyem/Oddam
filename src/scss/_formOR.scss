@@ -225,11 +225,14 @@
 
         .columns {
           display: flex;
-          justify-content: space-between;
+          //justify-content: space-between;
           @media (max-width: 630px) {
            flex-direction: column;
             justify-content: center;
             align-items: flex-start;
+          }
+          .time{
+            margin-left:2rem;
           }
 
           .time, .adres {
