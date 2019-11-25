@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react';
 import './App.css';
-import {Route, Switch, HashRouter, withRouter} from "react-router-dom";
+import {Route, Switch, BrowserRouter, withRouter} from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./containers/Login";
 import Register from "./containers/Register";
@@ -33,7 +33,7 @@ class App extends React.Component {
             <div style={style}>
                 <Suspense fallback="loading">
                     <Provider store={store}>
-                        <HashRouter>
+                        <BrowserRouter>
                             <Switch>
                                 <Route exact path='/' component={Home}/>
                                 <Route path="/logowanie" component={Login}/>
@@ -42,7 +42,7 @@ class App extends React.Component {
                                 <Route path="/oddaj-rzeczy" component={OddajRzeczy}/>
                                 <Route component={NotFound}/>
                             </Switch>
-                        </HashRouter>
+                        </BrowserRouter>
                     </Provider>
                 </Suspense>
             </div>
