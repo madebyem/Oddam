@@ -1,4 +1,4 @@
- [https://madebyem.github.io/oddamrzeczy/#/][Link do projektu] <br /><br />
+Link do projektu: [https://madebyem.github.io/oddamrzeczy/#/] <br /><br />
 
 
 Projekt przygotowywany w ramach kursu Coders Lab - JavaScript Developer:React.
@@ -123,3 +123,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 []: https://madebyem.github.io/oddamrzeczy/#/
 
 [Link]: https://madebyem.github.io/oddamrzeczy/
+
+[]: https://madebyem.github.io/oddamrzeczy/#/
