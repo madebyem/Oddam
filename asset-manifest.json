@@ -1,31 +1,26 @@
 {
   "files": {
     "main.css": "/oddamrzeczy/static/css/main.38a48134.chunk.css",
-    "main.js": "/oddamrzeczy/static/js/main.e2084d2f.chunk.js",
-    "main.js.map": "/oddamrzeczy/static/js/main.e2084d2f.chunk.js.map",
+    "main.js": "/oddamrzeczy/static/js/main.38af5cb2.chunk.js",
+    "main.js.map": "/oddamrzeczy/static/js/main.38af5cb2.chunk.js.map",
     "runtime-main.js": "/oddamrzeczy/static/js/runtime-main.007e5f94.js",
     "runtime-main.js.map": "/oddamrzeczy/static/js/runtime-main.007e5f94.js.map",
-    "static/css/2.9b1ecfa1.chunk.css": "/oddamrzeczy/static/css/2.9b1ecfa1.chunk.css",
-    "static/js/2.fce7bcd5.chunk.js": "/oddamrzeczy/static/js/2.fce7bcd5.chunk.js",
-    "static/js/2.fce7bcd5.chunk.js.map": "/oddamrzeczy/static/js/2.fce7bcd5.chunk.js.map",
+    "static/css/2.da4037e4.chunk.css": "/oddamrzeczy/static/css/2.da4037e4.chunk.css",
+    "static/js/2.8f1856db.chunk.js": "/oddamrzeczy/static/js/2.8f1856db.chunk.js",
+    "static/js/2.8f1856db.chunk.js.map": "/oddamrzeczy/static/js/2.8f1856db.chunk.js.map",
     "index.html": "/oddamrzeczy/index.html",
-    "precache-manifest.33e42b1cf9dd9edac806337fa1b5e87a.js": "/oddamrzeczy/precache-manifest.33e42b1cf9dd9edac806337fa1b5e87a.js",
+    "precache-manifest.04da38206bbdd446ac00a2f8f84bf231.js": "/oddamrzeczy/precache-manifest.04da38206bbdd446ac00a2f8f84bf231.js",
     "service-worker.js": "/oddamrzeczy/service-worker.js",
-    "static/css/2.9b1ecfa1.chunk.css.map": "/oddamrzeczy/static/css/2.9b1ecfa1.chunk.css.map",
+    "static/css/2.da4037e4.chunk.css.map": "/oddamrzeczy/static/css/2.da4037e4.chunk.css.map",
     "static/css/main.38a48134.chunk.css.map": "/oddamrzeczy/static/css/main.38a48134.chunk.css.map",
     "static/media/main.scss": "/oddamrzeczy/static/media/open-sans-v17-latin-ext_latin-regular.be21e759.woff2",
-    "static/media/Decoration.svg": "/oddamrzeczy/static/media/Decoration.2290784e.svg",
-    "locales/pl_PL/translation.json": "/oddamrzeczy/locales/pl_PL/translation.json",
-    "locales/en_US/translation.json": "/oddamrzeczy/locales/en_US/translation.json"
+    "static/media/Decoration.svg": "/oddamrzeczy/static/media/Decoration.2290784e.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.007e5f94.js",
-    "static/css/2.9b1ecfa1.chunk.css",
-    "static/js/2.fce7bcd5.chunk.js",
+    "static/css/2.da4037e4.chunk.css",
+    "static/js/2.8f1856db.chunk.js",
     "static/css/main.38a48134.chunk.css",
-    "static/js/main.e2084d2f.chunk.js",
-    "locales/pl_PL/translation.json",
-    "locales/en_US/translation.json"
-
+    "static/js/main.38af5cb2.chunk.js"
   ]
 }
