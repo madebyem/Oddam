@@ -1,6 +1,7 @@
 {
   "name": "oddamwdobrerece",
   "version": "0.1.0",
+  "homepage": "https://madebyem.github.io/oddamrzeczy",
   "private": true,
   "dependencies": {
     "axios": "^0.19.0",
@@ -25,7 +26,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "svgr": "svgr -d src/Icons/ src/assets/"
+    "svgr": "svgr -d src/Icons/ src/assets/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
