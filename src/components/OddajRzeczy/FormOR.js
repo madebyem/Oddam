@@ -459,6 +459,7 @@ export class FormOR1 extends React.Component {
                                                         <label>
                                                             {t('formOR.date')}
                                                             <DatePicker
+                                                                dateFormat='dd/MM/yyyy'
                                                                 selected={this.state.address.date}
                                                                 onChange={this.setDate}
                                                                 style={{borderColor: this.state.dateValid === false ? "red" : "#3C3C3C"}}
