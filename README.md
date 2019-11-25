@@ -1,4 +1,4 @@
-Link do projektu: [https://madebyem.github.io/oddamrzeczy/#/] <br /><br />
+Link do projektu: [https://madebyem.github.io/oddamrzeczy/#/<br /><br />
 
 
 Projekt przygotowywany w ramach kursu Coders Lab - JavaScript Developer:React.

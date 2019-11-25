@@ -47,7 +47,7 @@ export class Contact1 extends React.Component {
                 fieldValidationErrors.message = messageValid ? '' : `${t("contact.errmess")}`;
                 break;
             case 'name':
-                nameValid = (value.split(" ").length < 2 && value.length > 0);
+                nameValid = (value.split(" ").length < 3 && value.length > 0);
                 fieldValidationErrors.name = nameValid ? '' : `${t("contact.errname")}`;
                 break;
             default:
@@ -87,7 +87,17 @@ export class Contact1 extends React.Component {
 
         this.setState({
             sent: true,
-        })
+            name: "",
+            email: "",
+            message: "",
+        }, this.clearForm())
+    };
+    clearForm() {
+        this.setState({
+            name: "",
+            email: "",
+            message: "",
+        });
     }
 
     render() {
