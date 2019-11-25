@@ -9,6 +9,9 @@ i18n
     .use(LanguageDetector)
     .use(initReactI18next)
     .init({
+        backend:{
+            loadPath:'/oddamrzeczy/locales/{{lng}}/{{ns}}.json'
+        },
         fallbackLng: 'pl_PL',
         debug: true,
         whitelist:Languages,
