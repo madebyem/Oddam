@@ -1,3 +1,6 @@
+ [https://madebyem.github.io/oddamrzeczy/#/][Link do projektu] <br /><br />
+
+
 Projekt przygotowywany w ramach kursu Coders Lab - JavaScript Developer:React.
 Celem projektu jest stworzenie miejsca, w którym każdy będzie mógł oddać niepotrzebne rzeczy zaufanym instytucjom.
 Projekt będzie stroną internetową z prostym formularzem, który ułatwi użytkownikom oddanie rzeczy.
@@ -115,3 +118,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+[]: https://madebyem.github.io/oddamrzeczy/#/
+
+[Link]: https://madebyem.github.io/oddamrzeczy/
