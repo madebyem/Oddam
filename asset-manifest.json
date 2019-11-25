@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/oddamrzeczy/static/css/main.38a48134.chunk.css",
-    "main.js": "/oddamrzeczy/static/js/main.e32cc741.chunk.js",
-    "main.js.map": "/oddamrzeczy/static/js/main.e32cc741.chunk.js.map",
+    "main.js": "/oddamrzeczy/static/js/main.869e5c70.chunk.js",
+    "main.js.map": "/oddamrzeczy/static/js/main.869e5c70.chunk.js.map",
     "runtime-main.js": "/oddamrzeczy/static/js/runtime-main.007e5f94.js",
     "runtime-main.js.map": "/oddamrzeczy/static/js/runtime-main.007e5f94.js.map",
     "static/css/2.9b1ecfa1.chunk.css": "/oddamrzeczy/static/css/2.9b1ecfa1.chunk.css",
     "static/js/2.fce7bcd5.chunk.js": "/oddamrzeczy/static/js/2.fce7bcd5.chunk.js",
     "static/js/2.fce7bcd5.chunk.js.map": "/oddamrzeczy/static/js/2.fce7bcd5.chunk.js.map",
     "index.html": "/oddamrzeczy/index.html",
-    "precache-manifest.fbc98d0b5c431aee2febd3a2c6bc8501.js": "/oddamrzeczy/precache-manifest.fbc98d0b5c431aee2febd3a2c6bc8501.js",
+    "precache-manifest.786441f2f9b9c0c420798bc7af7be18b.js": "/oddamrzeczy/precache-manifest.786441f2f9b9c0c420798bc7af7be18b.js",
     "service-worker.js": "/oddamrzeczy/service-worker.js",
     "static/css/2.9b1ecfa1.chunk.css.map": "/oddamrzeczy/static/css/2.9b1ecfa1.chunk.css.map",
     "static/css/main.38a48134.chunk.css.map": "/oddamrzeczy/static/css/main.38a48134.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.9b1ecfa1.chunk.css",
     "static/js/2.fce7bcd5.chunk.js",
     "static/css/main.38a48134.chunk.css",
-    "static/js/main.e32cc741.chunk.js"
+    "static/js/main.869e5c70.chunk.js"
   ]
 }
