@@ -1,4 +1,4 @@
-Link do projektu: [https://madebyem.github.io/oddamrzeczy/#/<br /><br />
+**Link** do projektu: [https://madebyem.github.io/oddamrzeczy/#/<br /><br />
 
 
 Projekt przygotowywany w ramach kursu Coders Lab - JavaScript Developer:React.
@@ -15,8 +15,11 @@ Do wykonania projektu użyto: <br/>
 
 Użytkownik może się zarejestrować, zalogować i wypełnić formularz oddania rzeczy, zapisywany w bazie danych Firebase. <br />
 Na stronie dostępne są informacje na temat projektu, wspomaganych organizacji oraz formularz kontaktowy. <br />
+
+**! Aby skorzystać z pełnej funkcjonalności portalu, należy się zarejestrować (dowolny email, haslo), być zalogowanym i przejść do zakładki "oddaj rzeczy". <br/>**
 Strona dostępna jest w języku polskim i angielskim. <br /> <br />
 Projekt jest na etapie dalszego rozwoju i poprawek.
+
 
 
 _______________________

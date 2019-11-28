@@ -16,10 +16,10 @@ export class FormOR1 extends React.Component {
         super(props)
         const {t} = this.props;
         this.state = {
+            step:1,
             warnings: [`${t("formOR.info1")}`,
                 `${t("formOR.info2")}`,
                 `${t("formOR.info3")}`, `${t("formOR.info4")}`],
-            step: 1,
             stuff: "",
             bags: "",
             location: "",
@@ -196,6 +196,7 @@ export class FormOR1 extends React.Component {
 
     clearState = () => {
         this.setState({
+            step: "1",
             stuff: "",
             bags: "",
             location: "",
