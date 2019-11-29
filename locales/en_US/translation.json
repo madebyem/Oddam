@@ -201,7 +201,12 @@
     "thanks2": "We will send you an e-mail with all the information about the collection.",
     "info1": "Complete the details of your items. Thanks to this, we will know who is best to pass them on to.",
     "info2": "Pack all items to be returned in 60l bags. You can find detailed instructions on how to properly pack things HERE.",
-    "info3": "If you know who you want to help, you can enter the name of this organization in the search bar. You can also filter organizations by their location or the purpose of their help.",
+    "info3": "If you know who you want to help, you can enter the name of this organization in the search bar. You can also select an organization by its location or by its purpose..",
     "info4": "Provide the address and date of pickup."
+  },
+  "tooltips": {
+    "helpfor": "You can choose more than one option",
+    "code": "Code must be in XX-XXX format",
+    "number": "The number must consist of 9 digits"
   }
 }
