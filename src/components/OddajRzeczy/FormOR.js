@@ -340,7 +340,7 @@ export class FormOR1 extends React.Component {
                                             </label>
                                             <br/>
                                             <div style={{display:'flex', alignItems:"center"}}><h4>{t('formOR.3who')}</h4>
-                                            <Tooltip title= {`${t("tooltips.helpfor")}`} arrow placement="right">
+                                            <Tooltip title= {`${t("tooltips.helpfor")}`} placement="right">
                                             <InfoOutlinedIcon color="action" style={{alignSelf:'flex-end', marginLeft:'0.5rem'}} alignmentBaseline='bottom'/>
                                             </Tooltip></div>
                                             <div className="helpfor">
@@ -398,7 +398,7 @@ export class FormOR1 extends React.Component {
 
                                             <h4>{t('formOR.org')}</h4>
                                             <label><input type="text" className="orgName" name="orgName"
-                                                          value={this.state.orgName}/></label>
+                                                          defaultValue={this.state.orgName}/></label>
                                             <div className="nextprev">
                                                 {this.state.step === 1 ? null : <button onClick={() => this.changeStep(-1)}
                                                                                         className="changestep">{t('formOR.wstecz')}</button>}
