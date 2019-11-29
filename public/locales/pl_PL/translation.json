@@ -202,7 +202,12 @@
     "thanks2": "Na maila prześlemy wszelkie informacje o odbiorze.",
     "info1": "Uzupełnij szczegóły Twoich rzeczy. Dzięki temu będziemy wiedzieć komu najlepiej je przekazać.",
     "info2": "Wszystkie rzeczy do oddania zapakuj w 60l worki. Dokładną instrukcję jak poprawnie spakować rzeczy znajdziesz TUTAJ.",
-    "info3": "Jeśli wiesz komu chcesz pomóc, możesz wpisać nazwę tej organizacji w wyszukiwarce. Możesz też filtrować organizacje po ich lokalizacji bądź celu ich pomocy.",
+    "info3": "Jeśli wiesz komu chcesz pomóc, możesz wpisać nazwę tej organizacji w wyszukiwarce. Możesz też wybrać organizacje po jej lokalizacji lub bądź celu pomocy",
     "info4": "Podaj adres oraz termin odbioru rzeczy."
+  },
+  "tooltips": {
+    "helpfor": "Możesz wybrać kilka opcji",
+    "code": "Kod musi być w formacie 'XX-XXX",
+    "number": "Numer musi się składać z 9 cyfr"
   }
 }

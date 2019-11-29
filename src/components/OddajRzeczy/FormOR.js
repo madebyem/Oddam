@@ -7,6 +7,8 @@ import SvgIcon1 from "../../Icons/Icon1";
 import SvgIcon4 from "../../Icons/Icon4";
 import decoration from "../../assets/Decoration.svg";
 import {withTranslation} from 'react-i18next';
+import InfoOutlinedIcon from '@material-ui/icons/InfoOutlined';
+import Tooltip from '@material-ui/core/Tooltip';
 
 
 const {postcodeValidator} = require('postcode-validator');
@@ -337,7 +339,10 @@ export class FormOR1 extends React.Component {
                                                 </select>
                                             </label>
                                             <br/>
-                                            <h4>{t('formOR.3who')}</h4>
+                                            <div style={{display:'flex', alignItems:"center"}}><h4>{t('formOR.3who')}</h4>
+                                            <Tooltip title= {`${t("tooltips.helpfor")}`} arrow placement="right">
+                                            <InfoOutlinedIcon color="action" style={{alignSelf:'flex-end', marginLeft:'0.5rem'}} alignmentBaseline='bottom'/>
+                                            </Tooltip></div>
                                             <div className="helpfor">
                                                 <label className="komu">
                                                     <input
@@ -433,24 +438,26 @@ export class FormOR1 extends React.Component {
                                                         <br/>
                                                         <label>
                                                             {t('formOR.code')}<br/>{t('formOR.code2')}
+                                                            <Tooltip title= {`${t("tooltips.code")}`}  placement="bottom">
                                                             <input
                                                                 value={this.state.address.postCode}
                                                                 name="postCode"
                                                                 type="text"
                                                                 style={{borderColor: this.state.postCodeValid === false ? "red" : "#3C3C3C"}}
 
-                                                            />
+                                                            /></Tooltip>
                                                         </label>
                                                         <br/>
                                                         <label>
                                                             {t('formOR.phone')}<br/>{t('formOR.number')}
+                                                            <Tooltip title= {`${t("tooltips.number")}`}  placement="bottom">
                                                             <input
                                                                 value={this.state.address.phone}
                                                                 name="phone"
                                                                 type="text"
                                                                 style={{borderColor: this.state.phoneValid === false ? "red" : "#3C3C3C"}}
 
-                                                            />
+                                                            /></Tooltip>
 
                                                         </label>
                                                         <br/>
@@ -460,6 +467,7 @@ export class FormOR1 extends React.Component {
                                                         <label>
                                                             {t('formOR.date')}
                                                             <DatePicker
+                                                                minDate={new Date()}
                                                                 dateFormat='dd/MM/yyyy'
                                                                 selected={this.state.address.date}
                                                                 onChange={this.setDate}

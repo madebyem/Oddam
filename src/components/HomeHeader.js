@@ -8,6 +8,7 @@ import {withTranslation} from 'react-i18next';
 export class HomeHeader1 extends React.Component {
     render() {
         const {t} = this.props;
+        console.log(t)
         return (
 
             <div className="header">

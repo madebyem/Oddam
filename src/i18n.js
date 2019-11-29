@@ -10,7 +10,8 @@ i18n
     .use(initReactI18next)
     .init({
         backend:{
-            loadPath:'/oddamrzeczy/locales/{{lng}}/{{ns}}.json'
+            loadPath:'/oddamrzeczy/locales/{{lng}}/{{ns}}.json',
+            // loadPath:'locales/{{lng}}/{{ns}}.json' //developement path :D
         },
         fallbackLng: 'pl_PL',
         debug: true,
