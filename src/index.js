@@ -10,6 +10,7 @@ import {Provider} from "react-redux";
 import './i18n';
 
 
+
 /**
  * @return {string}
  */

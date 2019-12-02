@@ -141,6 +141,8 @@
     .loginstuff {
       .loginlink {
         margin-left:1rem;
+        button{box-sizing: content-box;
+        flex-wrap: nowrap}
 
       }
     }
