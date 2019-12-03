@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url("../assets/Background-Contact-Form.jpg") no-repeat padding-box;
-  background-size: cover;
+  background: url("../assets/Background-Contact-Form.jpg") no-repeat content-box;
+  background-size: contain;
   position: relative;
   z-index: 1;
 

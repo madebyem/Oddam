@@ -7,6 +7,7 @@ function Onas() {
     const {t} = useTranslation();
     return (
         <div className="onas" name="onas" id='onas'>
+
             <div className="container">
                 <div className="info">
                     <h1>{t('aboutus.title')}</h1>
@@ -16,6 +17,7 @@ function Onas() {
                     <SvgSignature style={{alignSelf: 'flex-end'}}/>
                 </div>
             </div>
+            <div className="photo"></div>
         </div>
     )
 }

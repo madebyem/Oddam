@@ -1,19 +1,26 @@
 .onas {
   width: 100%;
   display: flex;
-  background: url("../assets/People.jpg") 110% 50% no-repeat border-box;
-  background-size: 50% 100%;
-  background-color: $color1;
+  //background: url("../assets/People.jpg") 110% 50% no-repeat border-box;
+  //background-size: cover;
+  //background-color: $color1;
+  .photo{
+    width:50%;
+    background: url("../assets/People.jpg") 50% no-repeat border-box;
+    background-size: cover;
+    background-color: $color1;
+
+  }
 
   .container {
     margin: 0 auto;
-    width: 90%;
+    width: 45%;
     display: flex;
     height: 100%;
   }
 
   .info {
-    width: 50%;
+    width: 100%;
     height: inherit;
     display: flex;
     flex-direction: column;
@@ -50,8 +57,12 @@
 @media (max-width: 800px) {
   .onas {
     background: $color1;
+    .photo{
+      display:none;
+    }
 
     .container {
+      width:90%;
       .info {
         width: 100%;
       }
