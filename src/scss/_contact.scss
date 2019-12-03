@@ -6,7 +6,9 @@
   align-items: center;
   flex-direction: column;
   background: url("../assets/Background-Contact-Form.jpg") no-repeat content-box;
-  background-size: contain;
+  background-size: cover;
+
+  background-position: 20% 20%;
   position: relative;
   z-index: 1;
 
