@@ -13,8 +13,11 @@
     align-items: center;
 
     button:hover {
-      transition: all 0.2s ease 0s;
-      background: $color3;
+        transition: all 0.2s ease 0s;
+        color:$color5;
+        box-shadow:
+                inset -3rem 0 0 0 $color3,
+                inset 3rem 0 0 0 $color3;
       color: $color5;
 
     }

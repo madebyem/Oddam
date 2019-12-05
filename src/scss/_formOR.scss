@@ -439,7 +439,11 @@
           color: graytext;
           border: 1px solid
         }
-
+        .changestep:hover{
+            box-shadow:
+                    inset -4.25rem 0 0 0 $color3,
+                    inset 4.25rem 0 0 0 $color3;
+        }
         .changestep:disabled:hover {
           background: inherit;
         }

@@ -33,8 +33,11 @@
       }
 
       button:hover {
-        transition: all 0.2s ease 0s;
-        background: $color3;
+          transition: all 0.2s ease 0s;
+          color:$color5;
+          box-shadow:
+                  inset -3rem 0 0 0 $color3,
+                  inset 3rem 0 0 0 $color3;
         color: $color5;
       }
 
@@ -107,8 +110,12 @@
 
   button:hover {
     text-decoration: none;
-    background-color: $color3;
-    transition: all 0.2s ease 0s;
+
+      transition: all 0.2s ease 0s;
+      color:$color5;
+      box-shadow:
+              inset -2.5rem 0 0 0 $color3,
+              inset 2.5rem 0 0 0 $color3;
     color: $color5;
   }
 }
@@ -143,6 +150,11 @@
         margin-left:1rem;
         button{box-sizing: content-box;
         flex-wrap: nowrap}
+        button:hover{
+          box-shadow:
+                  inset -4rem 0 0 0 $color3,
+                  inset 4rem 0 0 0 $color3;
+        }
 
       }
     }

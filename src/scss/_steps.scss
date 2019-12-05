@@ -82,7 +82,7 @@
 
     button {
       box-sizing: content-box;
-      width: 100%;
+      width: 12rem;
       padding: 1rem;
       font-family: $font-base;
       font-weight: lighter;
@@ -93,12 +93,15 @@
       border: 0.75px solid $color5;
       margin: 3rem 0;
     }
-
-    button:hover {
-      background-color: $color3;
+    button:hover{
       transition: all 0.2s ease 0s;
+      box-shadow:
+              inset -7rem 0 0 0 $color3,
+              inset 7rem 0 0 0 $color3;
+
       color: $color5;
     }
+
   }
 }
 

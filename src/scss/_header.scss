@@ -70,25 +70,27 @@
         font-family: $font-base;
         font-weight: lighter;
         font-size: 1.5rem;
-        line-height: 1.75rem;
+        line-height: 2rem;
         color: $color4;
         cursor: pointer;
         background-color: #fff;
-        border: 0.75px solid $color5;
+        border: 1px solid $color4;
         padding: 1rem;
         box-sizing: border-box;
         margin: 0 0.5rem;
+
         @media (max-width: 400px) {
           width:10rem;
           font-size:1rem;
         }
-
-
       }
 
       button:hover {
-        background-color: $color3;
         transition: all 0.2s ease 0s;
+        box-shadow:
+                inset -6rem 0 0 0 $color3,
+                inset 6rem 0 0 0 $color3;
+
         color: $color5;
       }
     }
