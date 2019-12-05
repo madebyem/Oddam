@@ -23,7 +23,7 @@ export class KomuPomagamy1 extends React.Component {
     render() {
         const {t} = this.props;
         return (
-            <div className="komupomagamy" name="komu" id='komu'>
+            <div className="komupomagamy" name="komupomagamy" id='komupomagamy'>
                 <div className="container">
                     <div className="category">
                         <h1>{t('komu.title')}</h1>

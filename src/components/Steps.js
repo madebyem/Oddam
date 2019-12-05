@@ -10,7 +10,7 @@ import {useTranslation} from 'react-i18next';
 function Steps() {
     const {t} = useTranslation();
     return (
-        <div className="steps" name="steps" id='steps'>
+        <div className="steps" name="kroki" id='kroki'>
             <div className="title">
                 <div className="container1">
                     <h1>{t('steps.4steps')}</h1>

@@ -43,9 +43,9 @@ export class Nav1 extends React.Component {
                     <Link className="navlink" to="/">
                         <button>Start</button>
                     </Link>
-                    <HashLink smooth={true} className="navlink nobut" to="/#steps">{t('nav.what')}</HashLink>
+                    <HashLink smooth={true} className="navlink nobut" to="/#kroki">{t('nav.what')}</HashLink>
                     <HashLink smooth={true} className="navlink nobut" to="/#onas">{t('nav.aboutus')}</HashLink>
-                    <HashLink smooth={true} className="navlink nobut" to="/#komu">{t('nav.fund')}</HashLink>
+                    <HashLink smooth={true} className="navlink nobut" to="/#komupomagamy">{t('nav.fund')}</HashLink>
                     <HashLink smooth={true} className="navlink nobut" to="/#kontakt">{t('nav.contact')}</HashLink>
                 </div>
             </>
