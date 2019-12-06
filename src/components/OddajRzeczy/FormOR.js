@@ -198,7 +198,6 @@ export class FormOR1 extends React.Component {
 
     clearState = () => {
         this.setState({
-            step: "1",
             stuff: "",
             bags: "",
             location: "",

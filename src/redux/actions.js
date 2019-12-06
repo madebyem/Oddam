@@ -54,7 +54,7 @@ export const login = () => (dispatch) => (loginData) => {
 
 export const sendRequest = () => (dispatch) => (token, requestData) => {
     dispatch(startSending());
-    axios.post('/oddaj-rzeczy.json?auth=' + token, requestData)
+    axios.put('/oddaj-rzeczy.json?auth=' + token, requestData)
         .then((response) => {
             console.log(response);
             dispatch(sentRequest(requestData))
