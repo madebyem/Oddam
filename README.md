@@ -16,7 +16,7 @@ Do wykonania projektu użyto: <br/>
 Użytkownik może się zarejestrować, zalogować i wypełnić formularz oddania rzeczy, zapisywany w bazie danych Firebase. <br />
 Na stronie dostępne są informacje na temat projektu, wspomaganych organizacji oraz formularz kontaktowy. <br />
 
-**! Aby skorzystać z pełnej funkcjonalności portalu, należy się zarejestrować (dowolny email, haslo), być zalogowanym i przejść do zakładki "oddaj rzeczy". <br/>**
+**! Aby skorzystać z pełnej funkcjonalności portalu, należy się zarejestrować (dowolny email, hasło lub użyć danych: test@test.com, hasło:password), być zalogowanym i przejść do zakładki "oddaj rzeczy". <br/>**
 Strona dostępna jest w języku polskim i angielskim. <br /> <br />
 Projekt jest na etapie dalszego rozwoju i poprawek.
 
@@ -39,6 +39,7 @@ For the project I used: <br />
 
 The user can register, log in and fill in the return form, which is stored in the Firebase database. <br />
 On the website one can find information about the project, supported organisations and the contact form. <br />
+**! In order to use the full functionality of the portal, you need to register (any email, password or use the following data: test@test.com, password:password), be logged in and go to the "DONATE ITEMS" button. <br/>**
 The website is available both in Polish and English. <br /> <br /> <br />
 The project is at the stage of further development and amendments.
 
